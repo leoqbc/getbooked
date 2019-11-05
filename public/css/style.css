@@ -1,0 +1,132 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/*search box css start here*/
+.search-sec {
+    padding: 2rem;
+}
+
+.search-slt {
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #EEE;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+.wrn-btn {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+@media (min-width: 992px) {
+    .search-sec {
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px) {
+    .search-sec {
+        background: #1A4668;
+    }
+}
+
+.company-name {
+    z-index: 10;
+    height: 80px;
+    width: 100%;
+    color: white;
+    background: #34495E;
+}
+
+.title-item {
+    color: #FFF;
+    font-size: 2.7rem;
+    width: 33rem;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autocomplete-dropbase {
+    position: relative;
+}
+
+.autocomplete-links {
+    position: absolute;
+    background: #FFF;
+    width: 100%;
+    padding: 10px 0px;
+    -webkit-box-shadow: -2px 36px 52px -28px rgba(107, 107, 107, 0.24);
+    -moz-box-shadow: -2px 36px 52px -28px rgba(107, 107, 107, 0.24);
+    box-shadow: -2px 36px 52px -28px rgba(107, 107, 107, 0.24);
+    z-index: 100;
+    display: none;
+}
+
+.autocomplete-item {
+    border-top: 1px solid #EEE;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.autocomplete-item:hover {
+    background: rgb(233, 245, 255);
+}
+
+.autocomplete-selected {
+    color: #11afae;
+    font-weight: bolder;
+}
+
+#city-ads {
+    margin-top: -60px;
+}
+
+@media (max-width: 992px) {
+    #city-ads {
+        margin-top: 30px;
+    }
+}
+
+.picture-ads {
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.picture-title {
+    top: 10px;
+    left: 15px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color: #FFF;
+    text-shadow: 2px 2px #000;
+    position: absolute;
+}
+
+
+.footer-element {
+    margin: 40px 0 0 0;
+    color: #FFF;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    background: rgba(26, 70, 104);
+}

@@ -1,0 +1,22 @@
+version: "3"
+services:
+  web:
+    container_name: nginx_php
+    image: webdevops/php-nginx-dev:7.3
+    working_dir: /app
+    ports:
+      - "443:443"
+      - "80:80"
+    volumes:
+      - .:/app
+    environment:
+      - WEB_DOCUMENT_ROOT=/app/public
+      - PHP_DATE_TIMEZONE=America/Sao_Paulo
+  mysql:
+    container_name: mysql_laravel
+    image: mysql:5.7
+    ports: 
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=getbooked
