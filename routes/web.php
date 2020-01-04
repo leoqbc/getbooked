@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/search', function () {
+    return view('search');
+});
+
+Route::get('/rooms/{hotel_id}', function () {
+    return view('rooms');
 });

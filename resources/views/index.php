@@ -86,7 +86,7 @@
                                 <select class="form-control search-slt" name="size" id="exampleFormControlSelect1">
                                     <option value="1">Individual (1)</option>
                                     <option value="2">Casal (2)</option>
-                                    <option value="2+">Família (2+)</option>
+                                    <option value="3+">Família (3+)</option>
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-12 p-0">
